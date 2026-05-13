@@ -5,6 +5,9 @@
 Stop runaway autopilot loops from burning your token budget. **squad-budget-tokens** is a lightweight extension that puts a live local dashboard in your browser, lets you set a max number of **input / output / cached tokens** per session, shows you token consumption broken down by Squad agent in real time, and kills autopilot when any budget is hit. Local-inference tokens (served by on-device models on `127.0.0.1`, e.g. Foundry Local) are tracked separately and **don't** count against the premium budgets.
 
 > Sister project: [`github-copilot-budget-extension`](https://github.com/jrubiosainz/github-copilot-budget-extension) tracks **premium requests**. This one tracks **tokens** — install both side-by-side; they listen on different ports and don't conflict.
+>
+> <img width="1227" height="789" alt="image" src="https://github.com/user-attachments/assets/687ed35d-0de6-4912-8665-0f6302b8eb61" />
+
 
 ## What you get
 
